@@ -1,0 +1,99 @@
+[
+  {
+    "statement": "Les Français font confiance aux institutions politiques",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 38,
+        "source": "Harris Interactive 2025",
+        "continent": "Europe",
+        "year": 2025
+      }
+    ],
+    "global_estimate": 38,
+    "scientific_consensus": "Non applicable",
+    "notes": "Opinion mesurée après les élections présidentielles françaises.",
+    "metadata": {
+      "source_link": "https://harris-interactive.fr/opinion_polls/barometre-de-confiance-politique-fevrier-2025/"
+    }
+  },
+  {
+    "statement": "L’inflation est la principale préoccupation des Français",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 65,
+        "source": "Harris Interactive 2025",
+        "continent": "Europe",
+        "year": 2025
+      }
+    ],
+    "global_estimate": 65,
+    "scientific_consensus": "Non applicable",
+    "notes": "Donnée issue de l'enquête Harris sur les préoccupations économiques.",
+    "metadata": {
+      "source_link": "https://harris-interactive.fr/opinion_polls/les-preoccupations-des-francais/"
+    }
+  },
+  {
+    "statement": "Les Français perçoivent Internet comme dangereux",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 55,
+        "source": "Harris Interactive 2022",
+        "continent": "Europe",
+        "year": 2022
+      }
+    ],
+    "global_estimate": 55,
+    "scientific_consensus": "En débat",
+    "notes": "Confiance numérique étudiée dans le cadre du Baromètre du numérique.",
+    "metadata": {
+      "source_link": "https://harris-interactive.fr/opinion_polls/barometre-de-la-confiance-des-francais-dans-le-numerique/"
+    }
+  },
+  {
+    "statement": "Le changement climatique est causé par l’activité humaine",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 85,
+        "source": "Eurobaromètre 2021",
+        "continent": "Europe",
+        "year": 2021
+      },
+      {
+        "name": "Allemagne",
+        "percentage": 83,
+        "source": "Eurobaromètre 2021",
+        "continent": "Europe",
+        "year": 2021
+      }
+    ],
+    "global_estimate": 84,
+    "scientific_consensus": "Vrai",
+    "notes": "Consensus scientifique largement établi par le GIEC et les grandes académies.",
+    "metadata": {
+      "source_link": "https://europa.eu/eurobarometer/surveys/detail/2240"
+    }
+  },
+  {
+    "statement": "Les Américains croient à l’existence des extraterrestres",
+    "countries": [
+      {
+        "name": "États-Unis",
+        "percentage": 35,
+        "source": "Pew Research 2021",
+        "continent": "Amérique du Nord",
+        "year": 2021
+      }
+    ],
+    "global_estimate": 35,
+    "scientific_consensus": "Non prouvé",
+    "notes": "Aucune preuve empirique confirmée, mais croyance répandue.",
+    "metadata": {
+      "source_link": "https://www.pewresearch.org/fact-tank/2021/06/30/"
+    }
+  }
+]
