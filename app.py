@@ -103,23 +103,23 @@ elif menu == "🔍 Moteur de recherche":
         result = search_belief_local(query)
 
         st.markdown("<div class='stat-box'>", unsafe_allow_html=True)
-        st.markdown(f"<div class='highlight-title'>{result['statement']}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div class='highlight-title'>{result.get('statement', 'Résultat introuvable')}</div>", unsafe_allow_html=True)
 
-        if result["year"]:
+        if result.get("year") is not None:
             st.write(f"📅 Année : {result['year']}")
-        if result["theme"]:
+        if result.get("theme"):
             st.write(f"🏷️ Thème : {result['theme']}")
-        if result["global_estimate"]:
+        if result.get("global_estimate"):
             st.write(f"🌍 Estimation globale : {result['global_estimate']}%")
-        if result["scientific_consensus"] and result["scientific_consensus"] != "Inconnu":
+        if result.get("scientific_consensus") and result["scientific_consensus"] != "Inconnu":
             st.write(f"📚 Consensus scientifique : {result['scientific_consensus']}")
-        if result["countries"]:
+        if result.get("countries"):
             st.write("📊 Estimations par pays :")
             st.write(result["countries"])
-        if result["demographics"]:
+        if result.get("demographics"):
             st.write("👥 Démographie :")
             st.write(result["demographics"])
-        if result["notes"]:
+        if result.get("notes"):
             st.markdown(f"📝 _{result['notes']}_")
 
         st.markdown("</div>", unsafe_allow_html=True)
