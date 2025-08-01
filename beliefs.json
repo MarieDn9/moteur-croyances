@@ -1,99 +1,3201 @@
 [
   {
-    "statement": "Les Français font confiance aux institutions politiques",
+    "statement": "La Terre est plate",
+    "global_estimate": 3.5,
+    "scientific_consensus": "Faux",
+    "notes": "Théorie du complot répandue sur Internet, très faible consensus.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 2.1,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 4.5,
+        "continent": "Amérique du Nord",
+        "source": "YouGov"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 6.0,
+        "continent": "Amérique du Sud",
+        "source": "Pew Research"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://yougov.com/flat-earth-survey"
+    }
+  },
+  {
+    "statement": "Le changement climatique est causé par l'humain",
+    "global_estimate": 76.3,
+    "scientific_consensus": "Vrai",
+    "notes": "Large consensus scientifique. Opinion publique variable selon les régions.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 83.0,
+        "continent": "Europe",
+        "source": "Harris Interactive"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 66.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew Research"
+      },
+      {
+        "name": "Inde",
+        "percentage": 71.0,
+        "continent": "Asie",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://climate.nasa.gov/evidence/"
+    }
+  },
+  {
+    "statement": "Les vaccins sont dangereux pour la santé",
+    "global_estimate": 12.0,
+    "scientific_consensus": "Faux",
+    "notes": "Consensus scientifique sur la sûreté des vaccins, malgré la méfiance d'une minorité.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 16.0,
+        "continent": "Europe",
+        "source": "Santé Publique France"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 10.5,
+        "continent": "Amérique du Nord",
+        "source": "CDC"
+      },
+      {
+        "name": "Italie",
+        "percentage": 8.0,
+        "continent": "Europe",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.who.int/vaccine_safety"
+    }
+  },
+  {
+    "statement": "Nous ne sommes jamais allés sur la Lune",
+    "global_estimate": 11.0,
+    "scientific_consensus": "Faux",
+    "notes": "Théorie conspirationniste répandue, mais contredite par des preuves scientifiques, techniques et des témoignages internationaux.",
+    "countries": [
+      {
+        "name": "États-Unis",
+        "percentage": 14.0,
+        "continent": "Amérique du Nord",
+        "source": "YouGov 2020"
+      },
+      {
+        "name": "France",
+        "percentage": 9.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "Russie",
+        "percentage": 28.0,
+        "continent": "Europe",
+        "source": "Levada Center"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://today.yougov.com/topics/science/articles-reports/2020/07/20/moon-landing-51st-anniversary-belief"
+    }
+  },
+  {
+    "statement": "Le virus de la COVID-19 a été créé en laboratoire",
+    "global_estimate": 35.0,
+    "scientific_consensus": "Incertitude",
+    "notes": "Théorie largement discutée ; les agences de renseignement américaines divergent sur l’origine du virus.",
+    "countries": [
+      {
+        "name": "États-Unis",
+        "percentage": 43.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew Research"
+      },
+      {
+        "name": "France",
+        "percentage": 31.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "Inde",
+        "percentage": 52.0,
+        "continent": "Asie",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.pewresearch.org/science/2021/07/26/"
+    }
+  },
+  {
+    "statement": "Les vaccins COVID-19 modifient l’ADN humain",
+    "global_estimate": 14.0,
+    "scientific_consensus": "Faux",
+    "notes": "Mythe contredit par les agences de santé du monde entier. Aucun vaccin ARN ne modifie l’ADN.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 17.0,
+        "continent": "Europe",
+        "source": "Santé Publique France"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 20.0,
+        "continent": "Amérique du Sud",
+        "source": "Datafolha"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 11.0,
+        "continent": "Amérique du Nord",
+        "source": "CDC"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.who.int/news-room/feature-stories/detail/how-do-vaccines-work"
+    }
+  },
+  {
+    "statement": "Le président Emmanuel Macron inspire confiance",
+    "global_estimate": 24.0,
+    "scientific_consensus": "Opinion",
+    "notes": "Croyance politique. Taux de confiance évolutif selon les contextes et les sondages.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 24.0,
+        "continent": "Europe",
+        "source": "IFOP 2025"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.ifop.com/publication/la-cote-de-confiance-des-responsables-politiques"
+    }
+  },
+  {
+    "statement": "Le président Emmanuel Macron est de droite",
+    "global_estimate": 56.0,
+    "scientific_consensus": "Opinion",
+    "notes": "Selon l’opinion publique, Emmanuel Macron est souvent perçu comme un président de droite, bien que son positionnement soit revendiqué comme central.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 56.0,
+        "continent": "Europe",
+        "source": "Harris Interactive"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://harris-interactive.fr"
+    }
+  },
+  {
+    "statement": "Les élites mondiales veulent réduire la population",
+    "global_estimate": 21.0,
+    "scientific_consensus": "Complot",
+    "notes": "Narratif conspirationniste récurrent dans les sphères antivax et extrémistes.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 18.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 25.0,
+        "continent": "Amérique du Nord",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://yougov.com"
+    }
+  },
+  {
+    "statement": "Les vaccins contiennent des puces électroniques pour nous contrôler",
+    "global_estimate": 8.0,
+    "scientific_consensus": "Faux",
+    "notes": "Aucune preuve scientifique. Théorie du complot sans fondement réel.",
+    "countries": [
+      {
+        "name": "États-Unis",
+        "percentage": 10.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew Research"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 7.0,
+        "continent": "Amérique du Sud",
+        "source": "Datafolha"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.reuters.com/article/factcheck-coronavirus-microchips-idUSL1N2E21P5"
+    }
+  },
+  {
+    "statement": "Les réseaux sociaux influencent les résultats des élections",
+    "global_estimate": 69.0,
+    "scientific_consensus": "Vrai",
+    "notes": "Des études démontrent l’impact significatif des plateformes sociales sur les choix électoraux.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 71.0,
+        "continent": "Europe",
+        "source": "Harris Interactive"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 68.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew"
+      },
+      {
+        "name": "Allemagne",
+        "percentage": 65.0,
+        "continent": "Europe",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://pewresearch.org/internet"
+    }
+  },
+  {
+    "statement": "Le virus du COVID-19 est exagéré par les médias",
+    "global_estimate": 27.0,
+    "scientific_consensus": "Controverse",
+    "notes": "Perception courante dans certaines régions, bien que les données médicales contredisent cette idée.",
+    "countries": [
+      {
+        "name": "États-Unis",
+        "percentage": 32.0,
+        "continent": "Amérique du Nord",
+        "source": "Gallup"
+      },
+      {
+        "name": "France",
+        "percentage": 24.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://news.gallup.com"
+    }
+  },
+  {
+    "statement": "Le changement climatique est une invention",
+    "global_estimate": 12.0,
+    "scientific_consensus": "Faux",
+    "notes": "Théorie minoritaire. Contredite par l’ensemble des données scientifiques climatologiques mondiales.",
+    "countries": [
+      {
+        "name": "États-Unis",
+        "percentage": 14.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew"
+      },
+      {
+        "name": "France",
+        "percentage": 8.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://climate.nasa.gov/evidence/"
+    }
+  },
+  {
+    "statement": "Le gouvernement nous surveille en permanence via nos téléphones",
+    "global_estimate": 48.0,
+    "scientific_consensus": "Partiellement vrai",
+    "notes": "Des dispositifs de surveillance existent, mais pas à l’échelle fantasmée dans les théories complotistes.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 47.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 52.0,
+        "continent": "Amérique du Nord",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://yougov.com"
+    }
+  },
+  {
+    "statement": "Opinion numéro 11 sur un sujet controversé",
+    "global_estimate": 25,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 11 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 21,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 26,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 31,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_11"
+    }
+  },
+  {
+    "statement": "Opinion numéro 12 sur un sujet controversé",
+    "global_estimate": 27,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 12 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 22,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 27,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 32,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_12"
+    }
+  },
+  {
+    "statement": "Opinion numéro 13 sur un sujet controversé",
+    "global_estimate": 29,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 13 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 23,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 28,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 33,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_13"
+    }
+  },
+  {
+    "statement": "Opinion numéro 14 sur un sujet controversé",
+    "global_estimate": 24,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 14 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 24,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 29,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 34,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_14"
+    }
+  },
+  {
+    "statement": "Opinion numéro 15 sur un sujet controversé",
+    "global_estimate": 26,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 15 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 25,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 30,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 35,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_15"
+    }
+  },
+  {
+    "statement": "Opinion numéro 16 sur un sujet controversé",
+    "global_estimate": 28,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 16 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 26,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 31,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 36,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_16"
+    }
+  },
+  {
+    "statement": "Opinion numéro 17 sur un sujet controversé",
+    "global_estimate": 30,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 17 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 27,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 32,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 37,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_17"
+    }
+  },
+  {
+    "statement": "Opinion numéro 18 sur un sujet controversé",
+    "global_estimate": 32,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 18 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 28,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 33,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 38,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_18"
+    }
+  },
+  {
+    "statement": "Opinion numéro 19 sur un sujet controversé",
+    "global_estimate": 34,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 19 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 29,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 34,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 39,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_19"
+    }
+  },
+  {
+    "statement": "Opinion numéro 20 sur un sujet controversé",
+    "global_estimate": 36,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 20 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 30,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 35,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 20,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_20"
+    }
+  },
+  {
+    "statement": "Opinion numéro 21 sur un sujet controversé",
+    "global_estimate": 31,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 21 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 31,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 36,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 21,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_21"
+    }
+  },
+  {
+    "statement": "Opinion numéro 22 sur un sujet controversé",
+    "global_estimate": 33,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 22 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 32,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 37,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 22,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_22"
+    }
+  },
+  {
+    "statement": "Opinion numéro 23 sur un sujet controversé",
+    "global_estimate": 35,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 23 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 33,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 38,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 23,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_23"
+    }
+  },
+  {
+    "statement": "Opinion numéro 24 sur un sujet controversé",
+    "global_estimate": 37,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 24 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 34,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 39,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 24,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_24"
+    }
+  },
+  {
+    "statement": "Opinion numéro 25 sur un sujet controversé",
+    "global_estimate": 39,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 25 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 35,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 15,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 25,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_25"
+    }
+  },
+  {
+    "statement": "Opinion numéro 26 sur un sujet controversé",
+    "global_estimate": 41,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 26 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 36,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 16,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 26,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_26"
+    }
+  },
+  {
+    "statement": "Opinion numéro 27 sur un sujet controversé",
+    "global_estimate": 43,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 27 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 37,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 17,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 27,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_27"
+    }
+  },
+  {
+    "statement": "Opinion numéro 28 sur un sujet controversé",
+    "global_estimate": 38,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 28 d'une base synthétique enrichie automatiquement à des fins de test.",
     "countries": [
       {
         "name": "France",
         "percentage": 38,
-        "source": "Harris Interactive 2025",
         "continent": "Europe",
-        "year": 2025
-      }
-    ],
-    "global_estimate": 38,
-    "scientific_consensus": "Non applicable",
-    "notes": "Opinion mesurée après les élections présidentielles françaises.",
-    "metadata": {
-      "source_link": "https://harris-interactive.fr/opinion_polls/barometre-de-confiance-politique-fevrier-2025/"
-    }
-  },
-  {
-    "statement": "L’inflation est la principale préoccupation des Français",
-    "countries": [
-      {
-        "name": "France",
-        "percentage": 65,
-        "source": "Harris Interactive 2025",
-        "continent": "Europe",
-        "year": 2025
-      }
-    ],
-    "global_estimate": 65,
-    "scientific_consensus": "Non applicable",
-    "notes": "Donnée issue de l'enquête Harris sur les préoccupations économiques.",
-    "metadata": {
-      "source_link": "https://harris-interactive.fr/opinion_polls/les-preoccupations-des-francais/"
-    }
-  },
-  {
-    "statement": "Les Français perçoivent Internet comme dangereux",
-    "countries": [
-      {
-        "name": "France",
-        "percentage": 55,
-        "source": "Harris Interactive 2022",
-        "continent": "Europe",
-        "year": 2022
-      }
-    ],
-    "global_estimate": 55,
-    "scientific_consensus": "En débat",
-    "notes": "Confiance numérique étudiée dans le cadre du Baromètre du numérique.",
-    "metadata": {
-      "source_link": "https://harris-interactive.fr/opinion_polls/barometre-de-la-confiance-des-francais-dans-le-numerique/"
-    }
-  },
-  {
-    "statement": "Le changement climatique est causé par l’activité humaine",
-    "countries": [
-      {
-        "name": "France",
-        "percentage": 85,
-        "source": "Eurobaromètre 2021",
-        "continent": "Europe",
-        "year": 2021
+        "source": "Données simulées"
       },
       {
-        "name": "Allemagne",
-        "percentage": 83,
-        "source": "Eurobaromètre 2021",
-        "continent": "Europe",
-        "year": 2021
+        "name": "États-Unis",
+        "percentage": 18,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 28,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
       }
     ],
-    "global_estimate": 84,
-    "scientific_consensus": "Vrai",
-    "notes": "Consensus scientifique largement établi par le GIEC et les grandes académies.",
     "metadata": {
-      "source_link": "https://europa.eu/eurobarometer/surveys/detail/2240"
+      "source_link": "https://example.com/source/opinion_28"
     }
   },
   {
-    "statement": "Les Américains croient à l’existence des extraterrestres",
+    "statement": "Opinion numéro 29 sur un sujet controversé",
+    "global_estimate": 40,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 29 d'une base synthétique enrichie automatiquement à des fins de test.",
     "countries": [
+      {
+        "name": "France",
+        "percentage": 39,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 19,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 29,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_29"
+    }
+  },
+  {
+    "statement": "Opinion numéro 30 sur un sujet controversé",
+    "global_estimate": 42,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 30 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 10,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 20,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 30,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_30"
+    }
+  },
+  {
+    "statement": "Opinion numéro 31 sur un sujet controversé",
+    "global_estimate": 44,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 31 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 11,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 21,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 31,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_31"
+    }
+  },
+  {
+    "statement": "Opinion numéro 32 sur un sujet controversé",
+    "global_estimate": 46,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 32 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 12,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 22,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 32,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_32"
+    }
+  },
+  {
+    "statement": "Opinion numéro 33 sur un sujet controversé",
+    "global_estimate": 48,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 33 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 13,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 23,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 33,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_33"
+    }
+  },
+  {
+    "statement": "Opinion numéro 34 sur un sujet controversé",
+    "global_estimate": 50,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 34 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 14,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 24,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 34,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_34"
+    }
+  },
+  {
+    "statement": "Opinion numéro 35 sur un sujet controversé",
+    "global_estimate": 45,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 35 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 15,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 25,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 35,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_35"
+    }
+  },
+  {
+    "statement": "Opinion numéro 36 sur un sujet controversé",
+    "global_estimate": 47,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 36 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 16,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 26,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 36,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_36"
+    }
+  },
+  {
+    "statement": "Opinion numéro 37 sur un sujet controversé",
+    "global_estimate": 49,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 37 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 17,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 27,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 37,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_37"
+    }
+  },
+  {
+    "statement": "Opinion numéro 38 sur un sujet controversé",
+    "global_estimate": 51,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 38 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 18,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 28,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 38,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_38"
+    }
+  },
+  {
+    "statement": "Opinion numéro 39 sur un sujet controversé",
+    "global_estimate": 53,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 39 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 19,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 29,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 39,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_39"
+    }
+  },
+  {
+    "statement": "Opinion numéro 40 sur un sujet controversé",
+    "global_estimate": 55,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 40 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 20,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 30,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 20,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_40"
+    }
+  },
+  {
+    "statement": "Opinion numéro 41 sur un sujet controversé",
+    "global_estimate": 57,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 41 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 21,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 31,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 21,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_41"
+    }
+  },
+  {
+    "statement": "Opinion numéro 42 sur un sujet controversé",
+    "global_estimate": 52,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 42 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 22,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 32,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 22,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_42"
+    }
+  },
+  {
+    "statement": "Opinion numéro 43 sur un sujet controversé",
+    "global_estimate": 54,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 43 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 23,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 33,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 23,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_43"
+    }
+  },
+  {
+    "statement": "Opinion numéro 44 sur un sujet controversé",
+    "global_estimate": 56,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 44 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 24,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 34,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 24,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_44"
+    }
+  },
+  {
+    "statement": "Opinion numéro 45 sur un sujet controversé",
+    "global_estimate": 58,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 45 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 25,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
       {
         "name": "États-Unis",
         "percentage": 35,
-        "source": "Pew Research 2021",
         "continent": "Amérique du Nord",
-        "year": 2021
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 25,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
       }
     ],
-    "global_estimate": 35,
-    "scientific_consensus": "Non prouvé",
-    "notes": "Aucune preuve empirique confirmée, mais croyance répandue.",
     "metadata": {
-      "source_link": "https://www.pewresearch.org/fact-tank/2021/06/30/"
+      "source_link": "https://example.com/source/opinion_45"
+    }
+  },
+  {
+    "statement": "Opinion numéro 46 sur un sujet controversé",
+    "global_estimate": 60,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 46 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 26,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 36,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 26,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_46"
+    }
+  },
+  {
+    "statement": "Opinion numéro 47 sur un sujet controversé",
+    "global_estimate": 62,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 47 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 27,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 37,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 27,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_47"
+    }
+  },
+  {
+    "statement": "Opinion numéro 48 sur un sujet controversé",
+    "global_estimate": 64,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 48 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 28,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 38,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 28,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_48"
+    }
+  },
+  {
+    "statement": "Opinion numéro 49 sur un sujet controversé",
+    "global_estimate": 59,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 49 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 29,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 39,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 29,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_49"
+    }
+  },
+  {
+    "statement": "Opinion numéro 50 sur un sujet controversé",
+    "global_estimate": 61,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 50 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 30,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 15,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 30,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_50"
+    }
+  },
+  {
+    "statement": "Opinion numéro 51 sur un sujet controversé",
+    "global_estimate": 63,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 51 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 31,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 16,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 31,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_51"
+    }
+  },
+  {
+    "statement": "Opinion numéro 52 sur un sujet controversé",
+    "global_estimate": 65,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 52 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 32,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 17,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 32,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_52"
+    }
+  },
+  {
+    "statement": "Opinion numéro 53 sur un sujet controversé",
+    "global_estimate": 67,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 53 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 33,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 18,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 33,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_53"
+    }
+  },
+  {
+    "statement": "Opinion numéro 54 sur un sujet controversé",
+    "global_estimate": 69,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 54 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 34,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 19,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 34,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_54"
+    }
+  },
+  {
+    "statement": "Opinion numéro 55 sur un sujet controversé",
+    "global_estimate": 71,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 55 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 35,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 20,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 35,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_55"
+    }
+  },
+  {
+    "statement": "Opinion numéro 56 sur un sujet controversé",
+    "global_estimate": 66,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 56 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 36,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 21,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 36,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_56"
+    }
+  },
+  {
+    "statement": "Opinion numéro 57 sur un sujet controversé",
+    "global_estimate": 68,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 57 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 37,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 22,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 37,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_57"
+    }
+  },
+  {
+    "statement": "Opinion numéro 58 sur un sujet controversé",
+    "global_estimate": 70,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 58 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 38,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 23,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 38,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_58"
+    }
+  },
+  {
+    "statement": "Opinion numéro 59 sur un sujet controversé",
+    "global_estimate": 72,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 59 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 39,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 24,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 39,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_59"
+    }
+  },
+  {
+    "statement": "Opinion numéro 60 sur un sujet controversé",
+    "global_estimate": 14,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 60 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 10,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 25,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 20,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_60"
+    }
+  },
+  {
+    "statement": "Opinion numéro 61 sur un sujet controversé",
+    "global_estimate": 16,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 61 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 11,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 26,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 21,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_61"
+    }
+  },
+  {
+    "statement": "Opinion numéro 62 sur un sujet controversé",
+    "global_estimate": 18,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 62 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 12,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 27,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 22,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_62"
+    }
+  },
+  {
+    "statement": "Opinion numéro 63 sur un sujet controversé",
+    "global_estimate": 13,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 63 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 13,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 28,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 23,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_63"
+    }
+  },
+  {
+    "statement": "Opinion numéro 64 sur un sujet controversé",
+    "global_estimate": 15,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 64 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 14,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 29,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 24,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_64"
+    }
+  },
+  {
+    "statement": "Opinion numéro 65 sur un sujet controversé",
+    "global_estimate": 17,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 65 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 15,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 30,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 25,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_65"
+    }
+  },
+  {
+    "statement": "Opinion numéro 66 sur un sujet controversé",
+    "global_estimate": 19,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 66 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 16,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 31,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 26,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_66"
+    }
+  },
+  {
+    "statement": "Opinion numéro 67 sur un sujet controversé",
+    "global_estimate": 21,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 67 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 17,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 32,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 27,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_67"
+    }
+  },
+  {
+    "statement": "Opinion numéro 68 sur un sujet controversé",
+    "global_estimate": 23,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 68 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 18,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 33,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 28,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_68"
+    }
+  },
+  {
+    "statement": "Opinion numéro 69 sur un sujet controversé",
+    "global_estimate": 25,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 69 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 19,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 34,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 29,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_69"
+    }
+  },
+  {
+    "statement": "Opinion numéro 70 sur un sujet controversé",
+    "global_estimate": 20,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 70 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 20,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 35,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 30,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_70"
+    }
+  },
+  {
+    "statement": "Opinion numéro 71 sur un sujet controversé",
+    "global_estimate": 22,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 71 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 21,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 36,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 31,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_71"
+    }
+  },
+  {
+    "statement": "Opinion numéro 72 sur un sujet controversé",
+    "global_estimate": 24,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 72 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 22,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 37,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 32,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_72"
+    }
+  },
+  {
+    "statement": "Opinion numéro 73 sur un sujet controversé",
+    "global_estimate": 26,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 73 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 23,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 38,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 33,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_73"
+    }
+  },
+  {
+    "statement": "Opinion numéro 74 sur un sujet controversé",
+    "global_estimate": 28,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 74 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 24,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 39,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 34,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_74"
+    }
+  },
+  {
+    "statement": "Opinion numéro 75 sur un sujet controversé",
+    "global_estimate": 30,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 75 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 25,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 15,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 35,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_75"
+    }
+  },
+  {
+    "statement": "Opinion numéro 76 sur un sujet controversé",
+    "global_estimate": 32,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 76 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 26,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 16,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 36,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_76"
+    }
+  },
+  {
+    "statement": "Opinion numéro 77 sur un sujet controversé",
+    "global_estimate": 27,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 77 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 27,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 17,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 37,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_77"
+    }
+  },
+  {
+    "statement": "Opinion numéro 78 sur un sujet controversé",
+    "global_estimate": 29,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 78 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 28,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 18,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 38,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_78"
+    }
+  },
+  {
+    "statement": "Opinion numéro 79 sur un sujet controversé",
+    "global_estimate": 31,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 79 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 29,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 19,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 39,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_79"
+    }
+  },
+  {
+    "statement": "Opinion numéro 80 sur un sujet controversé",
+    "global_estimate": 33,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 80 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 30,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 20,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 20,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_80"
+    }
+  },
+  {
+    "statement": "Opinion numéro 81 sur un sujet controversé",
+    "global_estimate": 35,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 81 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 31,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 21,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 21,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_81"
+    }
+  },
+  {
+    "statement": "Opinion numéro 82 sur un sujet controversé",
+    "global_estimate": 37,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 82 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 32,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 22,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 22,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_82"
+    }
+  },
+  {
+    "statement": "Opinion numéro 83 sur un sujet controversé",
+    "global_estimate": 39,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 83 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 33,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 23,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 23,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_83"
+    }
+  },
+  {
+    "statement": "Opinion numéro 84 sur un sujet controversé",
+    "global_estimate": 34,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 84 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 34,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 24,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 24,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_84"
+    }
+  },
+  {
+    "statement": "Opinion numéro 85 sur un sujet controversé",
+    "global_estimate": 36,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 85 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 35,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 25,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 25,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_85"
+    }
+  },
+  {
+    "statement": "Opinion numéro 86 sur un sujet controversé",
+    "global_estimate": 38,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 86 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 36,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 26,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 26,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_86"
+    }
+  },
+  {
+    "statement": "Opinion numéro 87 sur un sujet controversé",
+    "global_estimate": 40,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 87 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 37,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 27,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 27,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_87"
+    }
+  },
+  {
+    "statement": "Opinion numéro 88 sur un sujet controversé",
+    "global_estimate": 42,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 88 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 38,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 28,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 28,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_88"
+    }
+  },
+  {
+    "statement": "Opinion numéro 89 sur un sujet controversé",
+    "global_estimate": 44,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 89 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 39,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 29,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 29,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_89"
+    }
+  },
+  {
+    "statement": "Opinion numéro 90 sur un sujet controversé",
+    "global_estimate": 46,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 90 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 10,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 30,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 30,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_90"
+    }
+  },
+  {
+    "statement": "Opinion numéro 91 sur un sujet controversé",
+    "global_estimate": 41,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 91 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 11,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 31,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 31,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_91"
+    }
+  },
+  {
+    "statement": "Opinion numéro 92 sur un sujet controversé",
+    "global_estimate": 43,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 92 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 12,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 32,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 32,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_92"
+    }
+  },
+  {
+    "statement": "Opinion numéro 93 sur un sujet controversé",
+    "global_estimate": 45,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 93 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 13,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 33,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 33,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_93"
+    }
+  },
+  {
+    "statement": "Opinion numéro 94 sur un sujet controversé",
+    "global_estimate": 47,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 94 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 14,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 34,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 34,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_94"
+    }
+  },
+  {
+    "statement": "Opinion numéro 95 sur un sujet controversé",
+    "global_estimate": 49,
+    "scientific_consensus": "Vrai",
+    "notes": "Cette opinion est la numéro 95 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 15,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 35,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 35,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_95"
+    }
+  },
+  {
+    "statement": "Opinion numéro 96 sur un sujet controversé",
+    "global_estimate": 51,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 96 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 16,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 36,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 36,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_96"
+    }
+  },
+  {
+    "statement": "Opinion numéro 97 sur un sujet controversé",
+    "global_estimate": 53,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 97 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 17,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 37,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 37,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_97"
+    }
+  },
+  {
+    "statement": "Opinion numéro 98 sur un sujet controversé",
+    "global_estimate": 48,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 98 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 18,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 38,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 38,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_98"
+    }
+  },
+  {
+    "statement": "Opinion numéro 99 sur un sujet controversé",
+    "global_estimate": 50,
+    "scientific_consensus": "Opinion",
+    "notes": "Cette opinion est la numéro 99 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 19,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 39,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 39,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_99"
+    }
+  },
+  {
+    "statement": "Opinion numéro 100 sur un sujet controversé",
+    "global_estimate": 52,
+    "scientific_consensus": "Faux",
+    "notes": "Cette opinion est la numéro 100 d'une base synthétique enrichie automatiquement à des fins de test.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 20,
+        "continent": "Europe",
+        "source": "Données simulées"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 15,
+        "continent": "Amérique du Nord",
+        "source": "Données simulées"
+      },
+      {
+        "name": "Brésil",
+        "percentage": 20,
+        "continent": "Amérique du Sud",
+        "source": "Données simulées"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://example.com/source/opinion_100"
+    }
+  },
+  {
+    "statement": "L'avortement devrait être illégal",
+    "global_estimate": 29.0,
+    "scientific_consensus": "Controverse morale",
+    "notes": "Légal dans la majorité des pays occidentaux, mais l'opinion publique est très divisée notamment aux États-Unis.",
+    "countries": [
+      {
+        "name": "États-Unis",
+        "percentage": 44.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew Research"
+      },
+      {
+        "name": "France",
+        "percentage": 13.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "Pologne",
+        "percentage": 41.0,
+        "continent": "Europe",
+        "source": "Eurobaromètre"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.pewresearch.org/fact-tank/2022/05/06"
+    }
+  },
+  {
+    "statement": "Emmanuel Macron est crédible sur l'écologie",
+    "global_estimate": 26.0,
+    "scientific_consensus": "Opinion politique",
+    "notes": "Opinion partagée sur l'engagement écologique du président Macron, jugé trop modéré par certains.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 26.0,
+        "continent": "Europe",
+        "source": "Harris Interactive"
+      },
+      {
+        "name": "Belgique",
+        "percentage": 21.0,
+        "continent": "Europe",
+        "source": "Le Soir"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.harris-interactive.fr"
+    }
+  },
+  {
+    "statement": "La justice est équitable en France",
+    "global_estimate": 37.0,
+    "scientific_consensus": "Opinion",
+    "notes": "Une majorité des Français expriment des doutes sur l’impartialité du système judiciaire.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 37.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "Allemagne",
+        "percentage": 53.0,
+        "continent": "Europe",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://ifop.com"
+    }
+  },
+  {
+    "statement": "Il est normal de refuser des soins si l'on est non vacciné",
+    "global_estimate": 18.0,
+    "scientific_consensus": "Débat éthique",
+    "notes": "Débat moral apparu pendant la pandémie de COVID-19. Légalement non applicable en France.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 18.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "Italie",
+        "percentage": 21.0,
+        "continent": "Europe",
+        "source": "Corriere"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.francesoir.fr"
+    }
+  },
+  {
+    "statement": "Les médecins sont influencés par les laboratoires pharmaceutiques",
+    "global_estimate": 62.0,
+    "scientific_consensus": "Partiellement vrai",
+    "notes": "La majorité des citoyens pensent qu'il existe des conflits d’intérêt dans le monde médical.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 66.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 59.0,
+        "continent": "Amérique du Nord",
+        "source": "Kaiser Family Foundation"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.kff.org"
+    }
+  },
+  {
+    "statement": "Il y a trop d'immigration en France",
+    "global_estimate": 54.0,
+    "scientific_consensus": "Opinion",
+    "notes": "L'immigration est perçue comme excessive par une majorité de Français selon les sondages récents.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 62.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "Allemagne",
+        "percentage": 48.0,
+        "continent": "Europe",
+        "source": "YouGov"
+      },
+      {
+        "name": "Italie",
+        "percentage": 59.0,
+        "continent": "Europe",
+        "source": "Ipsos"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.ifop.com/publication/lopinion-des-francais-sur-limmigration/"
+    }
+  },
+  {
+    "statement": "L’école ne prépare pas bien à la vie",
+    "global_estimate": 67.0,
+    "scientific_consensus": "Opinion",
+    "notes": "Critique fréquente dans de nombreux pays sur le décalage entre l’enseignement scolaire et les réalités de la vie adulte.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 72.0,
+        "continent": "Europe",
+        "source": "Harris Interactive"
+      },
+      {
+        "name": "Canada",
+        "percentage": 68.0,
+        "continent": "Amérique du Nord",
+        "source": "Leger"
+      },
+      {
+        "name": "Espagne",
+        "percentage": 61.0,
+        "continent": "Europe",
+        "source": "YouGov"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://harris-interactive.fr"
+    }
+  },
+  {
+    "statement": "Les religions ont plus divisé que rassemblé",
+    "global_estimate": 58.0,
+    "scientific_consensus": "Opinion philosophique",
+    "notes": "Une majorité considère que les religions ont été source de conflits plus que d’unité.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 64.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "Royaume-Uni",
+        "percentage": 55.0,
+        "continent": "Europe",
+        "source": "YouGov"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 47.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew Research"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://pewresearch.org"
+    }
+  },
+  {
+    "statement": "Il faut rétablir la peine de mort pour certains crimes",
+    "global_estimate": 39.0,
+    "scientific_consensus": "Controverse morale",
+    "notes": "Bien que la peine de mort ait été abolie dans de nombreux pays, une part importante de la population y reste favorable.",
+    "countries": [
+      {
+        "name": "France",
+        "percentage": 44.0,
+        "continent": "Europe",
+        "source": "IFOP"
+      },
+      {
+        "name": "États-Unis",
+        "percentage": 54.0,
+        "continent": "Amérique du Nord",
+        "source": "Pew Research"
+      },
+      {
+        "name": "Turquie",
+        "percentage": 68.0,
+        "continent": "Asie",
+        "source": "Konda"
+      }
+    ],
+    "metadata": {
+      "source_link": "https://www.ifop.com/publication/peine-de-mort-opinion/"
     }
   }
 ]
