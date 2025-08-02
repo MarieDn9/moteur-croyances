@@ -1,3 +1,4 @@
+
 import streamlit as st
 import difflib
 import pandas as pd
@@ -115,7 +116,20 @@ elif menu == "🔍 Moteur de recherche":
             st.write(f"📚 Consensus scientifique : {result['scientific_consensus']}")
         if result.get("countries"):
             st.write("📊 Estimations par pays :")
-            st.write(result["countries"])
+            country_df = pd.DataFrame(result["countries"])
+            country_df = country_df.rename(columns={
+                "name": "Pays",
+                "percentage": "% d'accord",
+                "continent": "Continent",
+                "source": "Source"
+            })
+            st.dataframe(country_df)
+
+            st.write("📈 Comparaison graphique :")
+            fig_compare = px.bar(country_df, x="Pays", y="% d'accord", color="Continent",
+                                 hover_data=["Source"], color_discrete_sequence=px.colors.qualitative.Set2)
+            st.plotly_chart(fig_compare, use_container_width=True)
+
         if result.get("demographics"):
             st.write("👥 Démographie :")
             st.write(result["demographics"])
